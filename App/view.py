@@ -8,7 +8,7 @@
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
+ * the Free Software Foundation, either version 3 of the License, or 
  * (at your option) any later version.
  *
  * This program is distributed in the hope that it will be useful,
@@ -43,6 +43,7 @@ def printMenu():
     print("1- Cargar Libros")
     print("2- Cargar Tags")
     # TO-DO: Modificaciones para completar el laboratorio 1.
+    print("3- Cargar Book tags")
     print("0- Salir")
 
 
@@ -80,5 +81,5 @@ while True:
     else:
         sys.exit(0)
 sys.exit(0)
-def x():
-    print("x")
+
+
