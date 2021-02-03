@@ -71,3 +71,10 @@ def createTagList():
     """
     taglist = lt.newList(datastructure='SINGLE_LINKED')
     return taglist
+
+def addBookTags(booktagsfile):
+    bookTags = lt.newList(datastructure='SINGLE_LINKED',
+                       filename=booktagsfile)
+    return bookTags
+
+

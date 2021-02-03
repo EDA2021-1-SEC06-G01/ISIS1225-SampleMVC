@@ -57,5 +57,4 @@ def loadBooksTags(catalog):
     Carga todos los Book Tags del archivo (goodreads_book_id, tag_id y count) y los agrega a la lista de Book Tags
     """
     booktagsfile = cf.data_dir + catalog
-    # TERMINAAAAAAR
-    pass
+    return model.addBookTags(booktagsfile)
